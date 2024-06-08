@@ -1,7 +1,7 @@
 function App() {
   return (
     <>
-      <h1>React Homework Templatesa (Vite)</h1>
+      <h1>React Homework TemplatesaKon (Vite)</h1>
     </>
   );
 }
