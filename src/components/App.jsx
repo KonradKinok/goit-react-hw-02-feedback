@@ -7,6 +7,7 @@ function App() {
       <h4>Checking4</h4>
       <h5>Checking5</h5>
       <h6>Checking6</h6>
+      <h2>Checking7</h2>
     </>
   );
 }
