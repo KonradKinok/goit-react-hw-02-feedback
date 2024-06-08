@@ -3,7 +3,8 @@ function App() {
     <>
       <h1>React Homework TemplatesaKon (Vite)</h1>
       <h2>Checking2</h2>
-      <h3>Checking2</h3>
+      <h3>Checking3</h3>
+      <h4>Checking4</h4>
     </>
   );
 }
