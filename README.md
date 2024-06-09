@@ -1,14 +1,12 @@
-# goit-react-hw-01-components
- 
+# goit-react-hw-02-feedback
 
 Link do repozytorium:
-https://github.com/KonradKinok/goit-react-hw-01-components
+https://github.com/KonradKinok/goit-react-hw-02-feedback
 
 Link do strony:
-https://konradkinok.github.io/goit-react-hw-01-components/
+https://konradkinok.github.io/goit-react-hw-02-feedback/
 
-
-1. Do pliku package.json należy dodać     "deploy": "gh-pages -d dist"  w pierwszym { ..... } na końcu
+1. Do pliku package.json należy dodać "deploy": "gh-pages -d dist" w pierwszym { ..... } na końcu
 2. Następnie należy zrobić npm install --save-dev gh-pages
 3. Następnie npm run build
 4. Poźniej npm run deploy
@@ -16,20 +14,19 @@ https://konradkinok.github.io/goit-react-hw-01-components/
 6. Jeśli nie to w plikach startowych od goit jest napisana instrukcja w redeme
 7. Po zrobieniu tego należy dodać zmiany na githuba i w pages ustawić gh-pages
 
-dodajcie jeszcze do projektu ten plik aby github automatycznie budował Wam stronę ze zmianami bez konieczności robienia za każdym razem npm run deploy. Nazwa pliku to deploy.yml 
---------------------------
+## dodajcie jeszcze do projektu ten plik aby github automatycznie budował Wam stronę ze zmianami bez konieczności robienia za każdym razem npm run deploy. Nazwa pliku to deploy.yml
+
 name: Build and deploy to GitHub Pages
 
 on:
-  push:
-    branches: [main]
+push:
+branches: [main]
 
 jobs:
-  build-and-deploy:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout 🛎️
-        uses: actions/checkout@v2.3.1
+build-and-deploy:
+runs-on: ubuntu-latest
+steps: - name: Checkout 🛎️
+uses: actions/checkout@v2.3.1
 
       - name: Install, lint, build 🔧
         run: |
@@ -42,13 +39,10 @@ jobs:
         with:
           branch: gh-pages
           folder: build
-----------------------------
+
+---
 
 # React homework template
-
-
-
-
 
 Ten projekt został stworzony przy pomocy
 [Create React App](https://github.com/facebook/create-react-app). W celu
@@ -163,8 +157,6 @@ końcu łańcucha jest obowiązkowy.
 3. Jeżeli wszystkie kroki zakończyły się sukcesem, zbudowana wersja produkcyjna
    plików projektu wysyłana jest do gałęzi `gh-pages`. W przeciwnym razie, w
    logu wykonania skryptu zostanie wskazane z czym jest problem.
-
-
 
 # React + Vite
 
